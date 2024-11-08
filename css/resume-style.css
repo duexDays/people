@@ -1,0 +1,95 @@
+/*
+name : Yeonhee Lee
+file name : resume-style.css
+created date : 09-28-2024
+decription: css file for resume.html
+*/
+#center-layout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.content-unit-container {
+  max-width: 800px;
+}
+
+.content-unit-title {
+  font-weight: 500;
+}
+
+.content ul {
+  padding-left: 60px;
+}
+
+.content li {
+  padding-top: 4px;
+}
+
+.content-unit-sub-container {
+  margin-top: 15px;
+}
+
+@media (max-width: 479px) {
+  .content-unit-title {
+    font-size: 11pt;
+  }
+  .content p {
+    font-size: 10pt;
+  }
+  .content-unit-sub-title {
+    font-size: 11pt;
+  }
+  .content-unit-sub-container li {
+    font-size: 9pt;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .content-unit-title {
+    font-size: 13pt;
+  }
+  .content p {
+    font-size: 12pt;
+  }
+  .content-unit-sub-title {
+    font-size: 13pt;
+  }
+  .content-unit-sub-container li {
+    font-size: 11pt;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .content-unit-title {
+    font-size: 15pt;
+  }
+  .content p {
+    font-size: 14pt;
+  }
+  .content-unit-sub-title {
+    font-size: 15pt;
+  }
+  .content-unit-sub-container li {
+    font-size: 13pt;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content-unit-title {
+    font-size: 15pt;
+  }
+  .content p {
+    font-size: 14pt;
+  }
+  .content-unit-sub-title {
+    font-size: 15pt;
+  }
+  .content-unit-sub-container li {
+    font-size: 13pt;
+  }
+}

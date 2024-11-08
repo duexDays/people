@@ -1,0 +1,167 @@
+<!--
+name : Yeonhee Lee
+file name : projects.html
+created date : 09-28-2024
+decription: introduction page of personal portfolio
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="description" content="Assignment1" >
+    <meta name="keywords" content="Assignment1,cst8285,htmlcode" >
+    <meta name="author" content="Yeonhee Lee" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Assignment1 - Personal portfolio</title>
+    <link rel="stylesheet" href="../css/common-style.css" >
+    <link rel="stylesheet" href="../css/project-style.css" >
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="menuToggle">
+          <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+          <input type="checkbox" >
+
+          <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div id="menuRight">
+          <ul id="menu-horizental-list-container">
+            <li class="top_menu">
+              <a href="index.html"><span class="white">About</span></a>
+            </li>
+            <li class="top_menu">
+              <a href="resume.html"><span class="white">Resume</span></a>
+            </li>
+            <li class="top_menu">
+              <a href="Projects.html"><span class="white">Projects</span></a>
+            </li>
+            <li class="top_menu">
+              <a href="contact.html"><span class="white">Contact</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div id="article-title-container">
+          <h1 id="article-title">Projects</h1>
+        </div>
+        <div id="center-layout-container">
+          <div id="center-layout">
+            <section class="content-unit-container">
+              <h2 class="content-unit-title">ERP(SAP) HR Consultant</h2>
+              <div class="line"></div>
+              <div class="card-type-1">
+                <div class="image1">
+                  <img src="../img/sap.JPG" alt="ERP(SAP)HR" width="250" >
+                </div>
+                <div class="project-information">
+                  <ul>
+                    <li>Duration: May 2006 - Present</li>
+                    <li>
+                      Description: As a HR consultant customized SAP IMG,
+                      developed the relation programs, created the authorization
+                      and role and provided the HR administrator training
+                      including creating training manuals. Maintained HCM system
+                      and provided the HR administrator training including
+                      creating training manuals. Provided technical support for
+                      the troubleshooting guidelines and modifications.
+                    </li>
+                    <li>
+                      Clients: LG Uplus, Kumho Petrochemical, LG Energy
+                      Solution, LG Chem, LX MMA (Seoul, South Korea)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="content-unit-container">
+              <h2 class="content-unit-title">ERP(SAP) HR Web Developer</h2>
+              <div class="line"></div>
+              <div class="card-type-2">
+                <div class="image1">
+                  <img src="../img/web.png" alt="ERP(SAP)WEB" width="250" >
+                </div>
+                <div class="image2">
+                  <img src="../img/web2.png" alt="ERP(SAP)WEB" width="250" >
+                </div>
+                <div class="project-information">
+                  <ul>
+                    <li>Duration: May 2006 - Present</li>
+                    <li>
+                      Description: As a SAP HR web developer implement and
+                      maintain HR ESS/MSS.Using bsp, webdynpro for abap,
+                      javascript, html5 in SAP
+                    </li>
+                    <li>
+                      Clients: LG Uplus, Kumho Petrochemical, Xi C&A, S&I Corp,
+                      Korea Hydro & Nuclear Power Co.,Ltd. (Seoul, South Korea)
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            <section class="content-unit-container">
+              <h2 class="content-unit-title">
+                Scouter-Open source APM Prototype Project
+              </h2>
+              <div class="line"></div>
+              <div class="card-type-1">
+                <div class="image1">
+                  <img src="../img/scouter.png" alt="Scouter" width="250" >
+                </div>
+                <div class="project-information">
+                  <ul>
+                    <li>Duration: Oct 2005 - April 2006</li>
+                    <li>
+                      Description: Participated as a prototype dashboard
+                      developer for the Open source APM Project. We developed a
+                      function that stores the results of performance analysis
+                      in the mysql server, processes the data using java, and
+                      displays it to the user on a dashboard using jsp.
+                    </li>
+                    <li>Clients: LG CNS</li>
+                    <li>
+                      github:
+                      <a
+                        href="https://github.com/scouter-project"
+                        target="_blank"
+                        >https://github.com/scouter-project</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <a href="https://www.linkedin.com/in/yeonhee-lee-919668112" target="_blank">
+        <img src="../img/linkedin.png" alt="LinkedIn" width="50" height="50" >
+      </a>
+      <p>Yeonhee Lee, 2024 Copyright</p> 
+    </footer>
+  </body>
+</html>
