@@ -1,0 +1,99 @@
+<!--
+name : Yeonhee Lee
+file name : contact.html
+created date : 09-28-2024
+decription: contact page of sending messages
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Assignment1">
+  <meta name="keywords" content="Assignment1,cst8285,htmlcode">
+  <meta name="author" content="Yeonhee Lee">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment1 - Personal portfolio</title>
+  <link rel="stylesheet" href="css/common-style.css">
+  <link rel="stylesheet" href="css/contact-style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="menuToggle">
+        <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+        <input type="checkbox">
+
+        <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li><a href="index.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div id="menuRight">
+        <ul id="menu-horizental-list-container">
+          <li class="top_menu">
+            <a href="index.html"><span class="white">About</span></a>
+          </li>
+          <li class="top_menu">
+            <a href="resume.html"><span class="white">Resume</span></a>
+          </li>
+          <li class="top_menu">
+            <a href="Projects.html"><span class="white">Projects</span></a>
+          </li>
+          <li class="top_menu">
+            <a href="contact.html"><span class="white">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main id="contact-content">
+      <div id="detail-container">
+          <form id="form1" action="contact.html" method="post" enctype="text/plain">
+            <fieldset id="fs1">
+              <legend>Contact</legend>
+              <h2><label for="ema">Email:</label></h2>
+              <p><input type="email" id="ema" name="email" size="40" placeholder="format for email is XXX@yyy.zzz"></p>
+              <h2><label for="Nm">Name</label></h2>
+              <p><input type="text" id="Nm" name="Name" size="40" maxlength="50" value="" required></p>
+              <h2><label for="subject">Subject:</label></h2>
+              <p>
+                <input type="text" id="subject" name="subjectName" size="40" minlength="10" maxlength="100" required>
+              </p>
+              <h2><label for="message">Message</label></h2>
+              <p>
+                <textarea name="messageName" id="message" rows="5" cols="40" minlength="10" maxlength="500"
+                  required></textarea>
+              </p>
+            </fieldset>
+            <div class="butt">
+              <button class="btn" type="submit">Send</button>
+              <button class="btn" type="reset">Clear</button>
+            </div>
+          </form>
+        </div>
+  </main>
+  <footer>
+    <a href="https://www.linkedin.com/in/yeonhee-lee-919668112" target="_blank">
+      <img src="img/linkedin.png" alt="LinkedIn" width="50" height="50">
+    </a>
+    <p>Yeonhee Lee, 2024 Copyright</p>
+  </footer>
+</body>
+
+</html>
